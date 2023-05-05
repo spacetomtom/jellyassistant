@@ -8,13 +8,13 @@
   ],
   "profile": { "name": "typicode" },
   "prompt": {
-    "message": 'Pick a goal', 
+    "message": "Pick a goal", 
     "suggestions": [
         {
-            "label": 'Content Analysis', id: 'content_id'
+            "label": "Content Analysis", "id": "content_id"
         },
         {
-            "label": 'Content Creation', id: 'creation_id'
+            "label": "Content Creation", "id": "creation_id"
         }
     ]
 }
