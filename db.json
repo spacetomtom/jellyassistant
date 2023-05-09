@@ -1,21 +1,106 @@
 {
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" },
-    { "id": 2, "title": "json-server 2", "author": "typicode" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
-  ],
-  "profile": { "name": "typicode" },
-  "prompt": {
-    "message": "Pick a goal", 
-    "suggestions": [
-        {
-            "label": "Content Analysis", "id": "content_id"
-        },
-        {
-            "label": "Content Creation", "id": "creation_id"
-        }
-    ]
-}
-}
+    "prompt": {
+      "message": "Pick a goal to get started",
+      "suggestions": [
+          {
+              "label": "Content Analysis",
+              "id": "content_id"
+          },
+          {
+              "label": "Content Creation",
+              "id": "2"
+          },
+          {
+              "label": "Conversation Mode",
+              "id": "conversation_id"
+          }
+      ]
+    },
+    "prompt1": {
+        "message": "Pick a goal to get started",
+        "suggestions": [
+            {
+                "label": "Content Analysis",
+                "id": "content_id"
+            },
+            {
+                "label": "Content Creation",
+                "id": "2"
+            },
+            {
+                "label": "Conversation Mode",
+                "id": "conversation_id"
+            }
+        ]
+      },
+    "prompt2": {
+      "message": "Welcome to Content Creation Mode. In this mode, I'll take you through some steps to create Youtube content that feels like you. The first step is to find an idea. What would you like to do a video on?",
+      "suggestions": [
+          {
+              "label": "A hot trend", "id": "3"
+          },
+          {
+              "label": "A topic that always works", "id": "a_topic_id"
+          },
+          {
+              "label": "Something brand new", "id": "new_id"
+          }
+      ], 
+      "sessionId": "the_session_id",
+      "history": [],
+      "ideas": []
+  },
+  "prompt3": {
+      "message": "Here are 3 ideas based on hot trends I think you'll like. Click any idea to expand it.",
+      "suggestions": [
+          {
+              "label": "Give me new ideas", "id": "give_me_new_ideas"
+          },
+          {
+              "label": "Explain why you picked these ideas", "id": "explain_why_you_picked"
+          },
+          {
+              "label": "Go back", "id": "go_back"
+          }
+      ], 
+      "sessionId": "the_session_id",
+      "history": [
+          {
+              "message": "Welcome to Content Creation Mode. In this mode, I'll take you through some steps to create Youtube content that feels like you. The first step is to find an idea. What would you like to do a video on?",
+              "suggestions": [
+                  {
+                      "label": "A hot trend", "id": "a_hot_id", "selected": true
+                  },
+                  {
+                      "label": "A topic that always works", "id": "a_topic_id", "selected": false
+                  },
+                  {
+                      "label": "Something brand new", "id": "new_id", "selected": false
+                  }
+              ], 
+              "sessionId": "the_session_id",
+              "ideas": []
+          }
+      ],
+      "ideas": [
+          {
+              "description": "He posted a selfie after being arrested?", 
+              "id": "the_case_id",
+              "thumbnail": "some_url",
+              "title": "The case of Aiden Fucci"
+          },
+          {
+              "description": "Y'all, why is he so obsessed with his own case?!", 
+              "id": "the_case_id",
+              "thumbnail": "some_url",
+              "title": "Idaho Murders update"
+          },
+          {
+              "description": "She looked like the perfect mom…", 
+              "id": "the_case_id",
+              "thumbnail": "some_url",
+              "title": "Lindsay Clancy case"
+          }
+      ]
+  }
+  }
