@@ -8,7 +8,7 @@ server.use(middlewares)
 
 server.use(jsonServer.bodyParser)
 server.use(function (req, res, next) {
-  if (req.method === 'POST') {
+  if (req.method === 'POST' && req.body.suggestionId) {
     
     // Converts POST to GET and move payload to query params
     // This way it will make JSON Server that it's GET request
