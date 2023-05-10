@@ -1,4 +1,31 @@
 {
+     "welcome-messages": [
+    "Hi, Petru! <br /> Welcome to JellyAssistant",
+    "I'm your AI assistant, designed to help you create content."
+  ],
+  "chat-sessions": [
+    {
+      "name": "Most popular videos on Youtube",
+      "id": "1"
+    },
+    {
+      "name": "Trending videos on Youtube",
+      "id": "2"
+    },
+    {
+      "name": "How to make a Youtube video",
+      "id": "3"
+    },
+    {
+      "name": "Popular trends in 2023",
+      "ide": "4"
+    },
+    {
+      "name": "Best video ideas on Champions League",
+      "id": "5"
+    }
+  ],
+  "channels": [],
     "prompt": {
       "message": "Pick a goal to get started",
       "suggestions": [
